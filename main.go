@@ -2,14 +2,9 @@ package main
 
 import "fmt"
 
-func test(name string){
-	for _, letters := range name{
-		fmt.Println(string(letters))
-	}
-}
-
 func main() {
-	name := "is my name"
-	test(name)
+	x := 123414223124
+	xAsBinary := fmt.Sprintf("%b\n", x)
+	fmt.Println(x, xAsBinary)
 }
 
