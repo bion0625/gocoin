@@ -17,7 +17,7 @@ type homeData struct {
 }
 
 func home (w http.ResponseWriter, r *http.Request) {
-	tmpl := template.Must(template.ParseFiles("templates/home.html"))
+	tmpl := template.Must(template.ParseFiles("templates/home.gohtml"))
 	data := homeData{"Home", blockchain.GetBlockChain().AllBlocks()}
 	tmpl.Execute(w, data)
 
