@@ -1,0 +1,9 @@
+http://localhost:3000/
+###
+http://localhost:3000/blocks
+###
+post http://localhost:3000/blocks
+
+{
+    "message":"Data for my block"
+}
