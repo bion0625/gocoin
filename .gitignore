@@ -3,6 +3,7 @@
 *.so
 *.dylib
 *.db
+*.db.lock
 
 *.test
 
